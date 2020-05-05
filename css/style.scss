@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    min-height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 106px;
+    background-color: #1f0d0d;
+    .Top__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 960px;
+        .Top__container__Icon {
+            margin: 0 0 0 22px;
+            .Top__container__Icon__img {
+                max-width: 141px;
+                max-height: 42px;
+                width: 100%;
+            }
+        }
+        .Top__container__nav {
+            display: flex;
+            font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+            margin-left: 116px;
+            .Top__container__nav__item {
+                color: #b8b6b4;
+                font-size: 13px;
+                margin-right: 51px;
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.main {
+    width: 100%;
+    background-color: #5c2727;
+    .main__nav {
+        display: flex;
+        justify-content: center;
+        .main__nav__contain__box {
+            max-width: 960px;
+            width: 100%;
+            .main__nav__contain {
+                display: flex;
+                justify-content: center;
+                background-color: #994040;
+                margin: 24px 22px 20px 22px;
+                .main__nav__item {
+                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                    font-size: 13px;
+                    color: #fff;
+                    text-align: center;
+                    padding: 7px;
+                    border-right: 1px solid #000;
+                    border-color: #000;
+                    min-width: 78px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: rgb(224, 232, 238);
+                        color: #000;
+                    }
+                }
+                .main__nav__right {
+                    width: 100%;
+                    .main__nav__right__btn {
+                        float: right;
+                        max-width: 75px;
+                        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                        text-align: center;
+                        width: 100%;
+                        height: 20px;
+                        margin-right: 23px;
+                        color: #fff;
+                        font-size: 12px;
+                        background-color: #f56767;
+                        border-radius: 2px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: rgb(224, 232, 238);
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main__nowIn {
+        display: flex;
+        justify-content: center;
+        .main__nowIn__box {
+            display: flex;
+            max-width: 960px;
+            width: 100%;
+            .main__nowIn__contain {
+                display: flex;
+                padding: 0 22px;
+                font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                color: #8f98a0;
+                font-size: 12px;
+                .main__nowIn__text {
+                    cursor: pointer;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                .main__nowIn__arrow {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+    .main__title {
+        display: flex;
+        justify-content: center;
+        .main__title__box {
+            max-width: 960px;
+            width: 100%;
+            .main__title__contain {
+                font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                font-size: 26px;
+                margin: 23px 22px 26px 22px;
+                color: #fff;
+            }
+        }
+    }
+    .main__banner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #3d1a1a;
+        .main__banner__box {
+            max-width: 960px;
+            width: 100%;
+            .main__banner__contain {
+                padding: 0 22px;
+                .main__banner__top__contain {
+                    .main__banner__top__img {
+                        width: 100%;
+                    }
+                }
+                .main__banner__bottom__contain {
+                    display: flex;
+                    margin: 0 -10px;
+                    .main__banner__bottom__contain__box {
+                        margin: 10px 10px;
+                        width: calc(100% / 4);
+                        background-size: 20vw;
+                        height: 98px;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+    }
+    .main__content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .main__content__contain {
+            display: flex;
+            margin: 10px 0 0 0 0;
+            max-width: 960px;
+            width: 100%;
+            .main__content__contain__left {
+                padding-top: 20px;
+                margin-left: 22px;
+                margin-right: 20px;
+                max-width: 603px;
+                width: 100%;
+                .main__content__contain__left__checkMoreGameBtn {
+                    .main__content__contain__left__checkMoreGameBtn__text {
+                    }
+                }
+            }
+            .main__content__contain__right {
+                display: flex;
+                padding-top: 20px;
+                margin-right: 22px;
+                max-width: 292px;
+                width: 100%;
+                .main__content__contain__right__box {
+                    width: 100%;
+                    height: 250px;
+                    background-color: #3d1a1a;
+                }
+            }
+        }
+    }
+}

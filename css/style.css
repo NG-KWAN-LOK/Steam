@@ -1,0 +1,286 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 106px;
+  background-color: #1f0d0d;
+}
+
+.Top .Top__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 960px;
+}
+
+.Top .Top__container .Top__container__Icon {
+  margin: 0 0 0 22px;
+}
+
+.Top .Top__container .Top__container__Icon .Top__container__Icon__img {
+  max-width: 141px;
+  max-height: 42px;
+  width: 100%;
+}
+
+.Top .Top__container .Top__container__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  margin-left: 116px;
+}
+
+.Top .Top__container .Top__container__nav .Top__container__nav__item {
+  color: #b8b6b4;
+  font-size: 13px;
+  margin-right: 51px;
+  cursor: pointer;
+}
+
+.Top .Top__container .Top__container__nav .Top__container__nav__item:hover {
+  color: #fff;
+}
+
+.main {
+  width: 100%;
+  background-color: #5c2727;
+}
+
+.main .main__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__nav .main__nav__contain__box {
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #994040;
+  margin: 24px 22px 20px 22px;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__item {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+  border-right: 1px solid #000;
+  border-color: #000;
+  min-width: 78px;
+  cursor: pointer;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__item:hover {
+  background-color: #e0e8ee;
+  color: #000;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__right {
+  width: 100%;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__right .main__nav__right__btn {
+  float: right;
+  max-width: 75px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  margin-right: 23px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #f56767;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__right .main__nav__right__btn:hover {
+  background-color: #e0e8ee;
+  color: #000;
+}
+
+.main .main__nowIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__nowIn .main__nowIn__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .main__nowIn .main__nowIn__box .main__nowIn__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 22px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  color: #8f98a0;
+  font-size: 12px;
+}
+
+.main .main__nowIn .main__nowIn__box .main__nowIn__contain .main__nowIn__text {
+  cursor: pointer;
+}
+
+.main .main__nowIn .main__nowIn__box .main__nowIn__contain .main__nowIn__text:hover {
+  color: #fff;
+}
+
+.main .main__nowIn .main__nowIn__box .main__nowIn__contain .main__nowIn__arrow {
+  padding: 0 10px;
+}
+
+.main .main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main__title .main__title__box {
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .main__title .main__title__box .main__title__contain {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 26px;
+  margin: 23px 22px 26px 22px;
+  color: #fff;
+}
+
+.main .main__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #3d1a1a;
+}
+
+.main .main__banner .main__banner__box {
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .main__banner .main__banner__box .main__banner__contain {
+  padding: 0 22px;
+}
+
+.main .main__banner .main__banner__box .main__banner__contain .main__banner__top__contain .main__banner__top__img {
+  width: 100%;
+}
+
+.main .main__banner .main__banner__box .main__banner__contain .main__banner__bottom__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.main .main__banner .main__banner__box .main__banner__contain .main__banner__bottom__contain .main__banner__bottom__contain__box {
+  margin: 10px 10px;
+  width: calc(100% / 4);
+  background-size: 20vw;
+  height: 98px;
+  background-position: center;
+}
+
+.main .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.main .main__content .main__content__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0 0 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left {
+  padding-top: 20px;
+  margin-left: 22px;
+  margin-right: 20px;
+  max-width: 603px;
+  width: 100%;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  margin-right: 22px;
+  max-width: 292px;
+  width: 100%;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box {
+  width: 100%;
+  height: 250px;
+  background-color: #3d1a1a;
+}
+/*# sourceMappingURL=style.css.map */
