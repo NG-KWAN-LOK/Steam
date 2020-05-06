@@ -78,6 +78,7 @@ body {
                 }
                 .main__nav__right {
                     width: 100%;
+                    align-self: center;
                     .main__nav__right__btn {
                         float: right;
                         max-width: 75px;
@@ -134,8 +135,8 @@ body {
             .main__title__contain {
                 font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
                 font-size: 26px;
-                margin: 23px 22px 26px 22px;
                 color: #fff;
+                margin: 23px 22px 26px 22px;
             }
         }
     }
@@ -184,8 +185,98 @@ body {
                 max-width: 603px;
                 width: 100%;
                 .main__content__contain__left__checkMoreGameBtn {
+                    display: flex;
+                    align-items: center;
+                    height: 53px;
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                    cursor: pointer;
                     .main__content__contain__left__checkMoreGameBtn__text {
+                        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                        font-size: 16px;
+                        color: #fff;
+                        margin-left: 28px;
                     }
+                    &:hover {
+                        background-color: #a3494956;
+                    }
+                }
+                .main__content__contain__left__buy {
+                    display: flex;
+                    align-items: center;
+                    height: 71px;
+                    background-color: #4e3636;
+                    width: 100%;
+                    margin-bottom: 60px;
+                    .main__content__contain__left__buy__box {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        .main__content__contain__left__buy__text {
+                            font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                            font-size: 21px;
+                            color: #fff;
+                            margin-left: 28px;
+                        }
+                        .main__content__contain__left__buy__price {
+                            display: flex;
+                            align-items: center;
+                            height: 32px;
+                            .main__content__contain__left__buy__price__right {
+                                display: flex;
+                                background-color: #000;
+                                .main__content__contain__left__buy__price__text {
+                                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                                    font-size: 15px;
+                                    color: #c6d4df;
+                                    padding: 0 33px;
+                                }
+                                .main__content__contain__left__buy__price__btn {
+                                    background-color: #799905;
+                                    margin: 3px;
+                                    border-radius: 2px;
+                                    cursor: pointer;
+                                    .main__content__contain__left__buy__price__btn__text {
+                                        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                                        font-size: 15px;
+                                        color: #d2e885;
+                                        padding: 0 21px;
+                                    }
+                                    &:hover {
+                                        background-color: #98c007;
+                                        .main__content__contain__left__buy__price__btn__text {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                            .main__content__contain__left__buy__price__windowsIcon {
+                                margin: 0 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .main__subtitle {
+                .main__subtitle__text {
+                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                    font-size: 15px;
+                    color: #fff;
+                    margin-bottom: 3px;
+                }
+                .main__subtitle__text-line {
+                    @extend .main__subtitle__text;
+                    border-bottom: 1px solid #315b74;
+                }
+            }
+            .main__paragraph {
+                margin-top: 10px;
+                margin-bottom: 37px;
+                .main__paragraph__text {
+                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                    font-size: 15px;
+                    color: #acb2bb;
                 }
             }
             .main__content__contain__right {
@@ -196,8 +287,145 @@ body {
                 width: 100%;
                 .main__content__contain__right__box {
                     width: 100%;
-                    height: 250px;
-                    background-color: #3d1a1a;
+                    .main__content__contain__right__box__showGame {
+                        width: 100%;
+                        background-color: #3d1a1a;
+                        margin-bottom: 20px;
+                        .main__content__contain__right__box__showGame__topImg {
+                            height: 151px;
+                            width: 100%;
+                            background-size: 36vw;
+                            background-position: center;
+                        }
+                        .main__content__contain__right__box__showGame__contain {
+                            display: block;
+                            padding: 20px;
+                            .main__content__contain__right__box__showGame__contain__row {
+                                display: flex;
+                                .main__content__contain__right__box__showGame__contain__row__title {
+                                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                                    font-size: 15px;
+                                    color: #acb2bb;
+                                }
+                                .main__content__contain__right__box__showGame__contain__row__text {
+                                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                                    font-size: 15px;
+                                    color: #acb2bb;
+                                }
+                            }
+                        }
+                    }
+                    .main__content__contain__right__box__translateSpport {
+                        background-color: #3d1a1a;
+                        margin-bottom: 20px;
+                        padding: 20px;
+                        .main__content__contain__right__box__translateSpport__title {
+                            width: 100%;
+                            font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                            font-size: 12px;
+                            color: #8f98a0;
+                        }
+                        .main__content__contain__right__box__translateSpport__table {
+                            width: 100%;
+                            font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                            font-size: 12px;
+                            color: #8f98a0;
+                            padding: 7px 0;
+                            .table {
+                                border-collapse: collapse;
+                            }
+                            .row {
+                                border-bottom: 1px solid #8f98a0;
+                            }
+                            .title {
+                                text-align: left;
+                                font-weight: 400;
+                                padding: 7px 0;
+                            }
+                            .tickcol {
+                                background-position: center;
+                                background-size: 16px;
+                                background-repeat: no-repeat;
+                                padding: 7px 0;
+                            }
+                            .checkcol {
+                                width: 60px;
+                                font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                                font-weight: 400;
+                                font-size: 12px;
+                                color: #8f98a0;
+                                padding: 7px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer__content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .footer__content__logo {
+            display: flex;
+            margin: 10px 0 0 0 0;
+            max-width: 960px;
+            width: 100%;
+            .footer__content__logo__box {
+                display: flex;
+                border-bottom: 1px solid #8f98a0;
+                border-top: 1px solid #8f98a0;
+                .footer__content__logo__contain {
+                    display: flex;
+                    margin: 22px;
+                    .footer__content__logo__contain__logo {
+                        width: 115px;
+                        .footer__content__logo__contain__logo__img {
+                            width: 100%;
+                        }
+                    }
+                    .footer__content__logo__contain__text {
+                        width: 70%;
+                        margin-left: 5px;
+                        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                        font-size: 12px;
+                        color: #8f98a0;
+                    }
+                }
+                .footer__content__logo__right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .footer__content__logo__right__logo {
+                        .footer__content__logo__right__logo__img {
+                            margin: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer__nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+        .footer__nav__box {
+            display: flex;
+            margin: 10px 0 0 0 0;
+            max-width: 960px;
+            width: 100%;
+            .footer__nav__box__contain {
+                display: flex;
+                .footer__nav__box__contain__item {
+                    margin-left: 20px;
+                    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+                    font-size: 15px;
+                    color: #8f98a0;
+                    cursor: pointer;
+                    &:hover {
+                        color: #fff;
+                    }
                 }
             }
         }

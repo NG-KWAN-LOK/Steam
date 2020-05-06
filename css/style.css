@@ -120,6 +120,9 @@ body {
 
 .main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__right {
   width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .main .main__nav .main__nav__contain__box .main__nav__contain .main__nav__right .main__nav__right__btn {
@@ -198,8 +201,8 @@ body {
 .main .main__title .main__title__box .main__title__contain {
   font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
   font-size: 26px;
-  margin: 23px 22px 26px 22px;
   color: #fff;
+  margin: 23px 22px 26px 22px;
 }
 
 .main .main__banner {
@@ -268,6 +271,133 @@ body {
   width: 100%;
 }
 
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__checkMoreGameBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 53px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__checkMoreGameBtn .main__content__contain__left__checkMoreGameBtn__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 28px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__checkMoreGameBtn:hover {
+  background-color: #a3494956;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 71px;
+  background-color: #4e3636;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 21px;
+  color: #fff;
+  margin-left: 28px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 32px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right .main__content__contain__left__buy__price__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #c6d4df;
+  padding: 0 33px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right .main__content__contain__left__buy__price__btn {
+  background-color: #799905;
+  margin: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right .main__content__contain__left__buy__price__btn .main__content__contain__left__buy__price__btn__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #d2e885;
+  padding: 0 21px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right .main__content__contain__left__buy__price__btn:hover {
+  background-color: #98c007;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__right .main__content__contain__left__buy__price__btn:hover .main__content__contain__left__buy__price__btn__text {
+  color: #fff;
+}
+
+.main .main__content .main__content__contain .main__content__contain__left .main__content__contain__left__buy .main__content__contain__left__buy__box .main__content__contain__left__buy__price .main__content__contain__left__buy__price__windowsIcon {
+  margin: 0 20px;
+}
+
+.main .main__content .main__content__contain .main__subtitle .main__subtitle__text, .main .main__content .main__content__contain .main__subtitle .main__subtitle__text-line {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.main .main__content .main__content__contain .main__subtitle .main__subtitle__text-line {
+  border-bottom: 1px solid #315b74;
+}
+
+.main .main__content .main__content__contain .main__paragraph {
+  margin-top: 10px;
+  margin-bottom: 37px;
+}
+
+.main .main__content .main__content__contain .main__paragraph .main__paragraph__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #acb2bb;
+}
+
 .main .main__content .main__content__contain .main__content__contain__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +410,196 @@ body {
 
 .main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box {
   width: 100%;
-  height: 250px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame {
+  width: 100%;
   background-color: #3d1a1a;
+  margin-bottom: 20px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame .main__content__contain__right__box__showGame__topImg {
+  height: 151px;
+  width: 100%;
+  background-size: 36vw;
+  background-position: center;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame .main__content__contain__right__box__showGame__contain {
+  display: block;
+  padding: 20px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame .main__content__contain__right__box__showGame__contain .main__content__contain__right__box__showGame__contain__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame .main__content__contain__right__box__showGame__contain .main__content__contain__right__box__showGame__contain__row .main__content__contain__right__box__showGame__contain__row__title {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #acb2bb;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__showGame .main__content__contain__right__box__showGame__contain .main__content__contain__right__box__showGame__contain__row .main__content__contain__right__box__showGame__contain__row__text {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #acb2bb;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport {
+  background-color: #3d1a1a;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__title {
+  width: 100%;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 12px;
+  color: #8f98a0;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table {
+  width: 100%;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 12px;
+  color: #8f98a0;
+  padding: 7px 0;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table .table {
+  border-collapse: collapse;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table .row {
+  border-bottom: 1px solid #8f98a0;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table .title {
+  text-align: left;
+  font-weight: 400;
+  padding: 7px 0;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table .tickcol {
+  background-position: center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  padding: 7px 0;
+}
+
+.main .main__content .main__content__contain .main__content__contain__right .main__content__contain__right__box .main__content__contain__right__box__translateSpport .main__content__contain__right__box__translateSpport__table .checkcol {
+  width: 60px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8f98a0;
+  padding: 7px 0;
+}
+
+.main .footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.main .footer__content .footer__content__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0 0 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #8f98a0;
+  border-top: 1px solid #8f98a0;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 22px;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__contain .footer__content__logo__contain__logo {
+  width: 115px;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__contain .footer__content__logo__contain__logo .footer__content__logo__contain__logo__img {
+  width: 100%;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__contain .footer__content__logo__contain__text {
+  width: 70%;
+  margin-left: 5px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 12px;
+  color: #8f98a0;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .footer__content .footer__content__logo .footer__content__logo__box .footer__content__logo__right .footer__content__logo__right__logo .footer__content__logo__right__logo__img {
+  margin: 22px;
+}
+
+.main .footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.main .footer__nav .footer__nav__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0 0 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.main .footer__nav .footer__nav__box .footer__nav__box__contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .footer__nav .footer__nav__box .footer__nav__box__contain .footer__nav__box__contain__item {
+  margin-left: 20px;
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+  font-size: 15px;
+  color: #8f98a0;
+  cursor: pointer;
+}
+
+.main .footer__nav .footer__nav__box .footer__nav__box__contain .footer__nav__box__contain__item:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
